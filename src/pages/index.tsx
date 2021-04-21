@@ -77,7 +77,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
             {allEpisodes.map(episode => {
               return (
                 <tr key={episode.id}>
-                  <td>
+                  <td style={{ width: 65 }}>
                     <Image
                       width={120}
                       height={120}
